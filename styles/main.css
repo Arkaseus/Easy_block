@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+a{
+    text-decoration:none;
+}
+.body{
+	 background-color: blanchedalmond;
+}
+.main {
+	display:flex;
+	background-color:whitesmoke;
+	height:500px;
+}

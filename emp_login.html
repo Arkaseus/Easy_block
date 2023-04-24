@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+    <title>Login</title>
+   <link rel="stylesheet" href="styles/nev,footer.css">
+
+<style>
+
+        body{ 
+                margin:0 0 0;
+            }
+.formcontainer{
+    background:url(3.jpg);
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+form{ background:rgb(86, 169, 247);
+    display:flex;
+    flex-direction:column;
+    width:400px;
+    height:500px;
+    padding: 20px;
+    box-shadow:6px 6px 6px blue;
+     
+}
+form label{
+    padding: 5px;
+    margin-top: 5px;
+
+}
+form input{
+    padding:5px
+   width 200;
+   height: 25px;
+   border-radius: 20px;
+   box-shadow: 2px 2px 2px;
+}
+form button{  box-shadow: 2px 2px 3px;
+    margin-top:15px;
+    padding: 8px;
+    width:100px
+     
+}
+a{
+    text-decoration:none;
+}
+
+</style>
+
+</head>
+<body>
+<div class="nev">
+    <div class="left">  
+       
+        <a href="main.jsp"> <h3>Easy Block - Online Resource Allocation System</h3></a>                    
+    </div>
+    <div class="right">
+        <a href="about.html" >About</a>
+    </div>
+  </div>
+
+    <div class="formcontainer">
+        <form method="post" action="emp_login">
+            <h1 style="margin-bottom:30px;"><u>Login</u></h1>
+            <label><b>Email</b></label>
+            <input type="email" placeholder="  email" name="e_id">
+            <label><b>Password</b></label>
+            <input type="password" placeholder="  password" name="e_pass">
+            <button type="submit"><b>Login</b></button>
+             <p><a href="#" >Forgot your password ?</a></p>
+            <p><b>Don't have an account ? </b><a href="emp_register.html">Create your account</a></p>
+            
+        </form>
+
+        
+    </div>
+   
+</body>
+
+<div class="footer">
+    
+    <div class="midbox">
+       
+        <div class="bottom" >
+            <a href="#"> &copy 2021 Easy-Block Inc.-All Rights Reserved</a> 
+        <a href="#">| Terms of use</a>
+         <a href="#">| privacy policy </a>
+         </div>
+    </div>
+    
+</div>
+</html>

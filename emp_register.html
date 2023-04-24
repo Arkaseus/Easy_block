@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <title>Create Your Account</title>
+
+<style>
+
+.formcontainer{ background:url(3.jpg);
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+form{ background:rgb(63, 157, 245);
+    display:flex;
+    flex-direction:column;
+    width:400px;
+    height:500px;
+    padding: 20px;
+    box-shadow:6px 6px 6px blue;
+
+     
+}
+form label{
+    padding: 5px;
+    margin-top: 5px;
+
+}
+form input{
+    padding:5px
+   width 200;
+   height: 25px;
+   border-radius: 20px;
+   box-shadow: 2px 2px 2px;
+}
+form button{  box-shadow: 2px 2px 3px;
+    margin-top:15px;
+    padding: 8px;
+    width:100px 
+}
+
+</style>
+
+<link rel="stylesheet" href="styles/nev,footer.css">
+</head>
+<body>
+
+  
+  
+<div class="nev">
+    <div class="left">  
+       
+        <a href="main.jsp"> <h3>Easy Block - Online Resource Allocation System</h3></a>                    
+    </div>
+    <div class="right">
+        <a href="about.html" >About</a>
+    </div>
+  </div>
+    
+    <div class="formcontainer">
+        <form  method="post" action="emp_register" >
+            <h1 style="margin-bottom:30px;"><u>Create Your Account</u></h1>
+            <label><b>Account Name</b></label>
+            <input type="text" placeholder="Account name" name="ename">
+            <label><b>Email</b></label>
+            <input type="email" placeholder="  email" name="eid">
+            <label><b>Password</b></label>
+            <input type="password" placeholder="  password" name="epass">
+            <label><b>Confirm Password</b></label>
+            <input type="password" placeholder=" Confirm password">
+            <button type="submit"><b>submit</b></button>
+      
+            <p><b>Already a member? </b><a href="emp_login.html">Login</a></p>
+            
+        </form>
+        
+    </div>
+    
+    
+    <div class="footer">
+    
+    <div class="midbox">
+       
+        <div class="bottom" >
+            <a href="#"> &copy 2021 Easy-Block Inc.-All Rights Reserved</a> 
+        <a href="#">| Terms of use</a>
+         <a href="#">| privacy policy </a>
+         </div>
+    </div>
+    
+</div>
+</body>
+</html>
